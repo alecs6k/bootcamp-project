@@ -1,0 +1,106 @@
+.top-module-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 1.5rem;
+	box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+	gap: 0.8rem;
+}
+
+.top-form-img-container {
+	width: 8rem;
+	height: 8rem;
+	overflow: hidden;
+}
+
+.top-module-header {
+	background-color: var(--font-secondary-2);
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+	border-radius: 1rem 1rem 0 0;
+}
+
+.top-module-body {
+	background-color: var(--font-white);
+	border-radius: 0 0 1rem 1rem;
+	padding: 1.25rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+	width: 100%;
+}
+
+.top-form-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+}
+
+.top-form-section {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 1.25rem;
+
+	&--col-30,
+	&--col-50,
+	&--col-70,
+	&--col-100 {
+		flex-direction: column;
+		width: 100%;
+	}
+}
+
+.top-module-information-user {
+	width: 100%;
+	display: flex;
+	gap: 1.25rem;
+}
+
+.top-module-profile-information {
+  width: 100%;
+  display: flex;
+  gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+	.top-form-container {
+		flex-direction: row;
+	}
+}
+
+@media (min-width: 1200px) {
+	.top-form-section {
+		flex-direction: row;
+
+		&--col-30 {
+			flex-direction: column;
+			width: 30%;
+		}
+
+		&--col-50 {
+			flex-direction: column;
+			width: 50%;
+		}
+
+		&--col-70 {
+			flex-direction: column;
+			width: 70%;
+		}
+
+		&--col-100 {
+			flex-direction: column;
+			width: 100%;
+		}
+	}
+}
+
+.top-form-btn-save {
+	display: flex;
+	padding: 0.5rem;
+	justify-content: center;
+	align-items: center;
+}

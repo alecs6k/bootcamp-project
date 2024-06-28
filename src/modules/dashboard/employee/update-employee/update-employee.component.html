@@ -1,0 +1,102 @@
+<section class="top-breadcrumbs">
+   <section class="top-breadcrumbs-left">
+      <a href="#/top/home" class="top-breadcrumbs-left-item">Home</a>
+      <a href="#/top" class="top-breadcrumbs-left-item">Administration</a>
+      <a href="#/top" class="top-breadcrumbs-left-item">Employee</a>
+      <a href="#/top/update-employee" class="top-breadcrumbs-left-item is-active">Update employee</a>
+   </section>
+   <label class="top-breadcrumbs-right">MODULE ADMINISTRATION</label>
+</section>
+
+
+<section class="container top-module-container">
+   <section class="header-card-title">
+      <span class="material-symbols-rounded">edit</span>
+      <label> UPDATE EMPLOYEE</label>
+   </section>
+
+   <form class="top-form-container-employee">
+      <section class="row">
+         <section class="col-sm-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4">
+            <section class="top-form-container-img">
+               <figure style="display: flex;" class="top-form-img-container">
+                  <img src="../../../../assets/img/1.jpg" alt="employee" id="choose-image"
+                       class="top-img-add-employee" />
+               </figure>
+
+               <input type="file" id="upload-btn" name="image" accept="image/*"
+                      class="top-btn-upload-add-employee--hidden" />
+               <label for="upload-btn" class="top-btn-upload-add-employee">
+                  <span class="top-icon material-symbols-rounded top-text-base">upload_file</span>
+                  Choose a photo
+               </label>
+            </section>
+         </section>
+         <section class="col-sm-12 col-md-7 col-lg-8 col-xl-8 col-xxl-8">
+            <section class="top-input-field">
+               <input type="text" id="fullName" class="top-input top-text-base" name="fullName" required />
+               <label for="fullName" class="top-placeholder-input top-text-base">
+                  <span class="top-icon material-symbols-rounded top-text-base">badge</span>
+                  Full name
+               </label>
+            </section>
+            <section class="top-input-field">
+               <select class="top-input top-text-base" id="position" name="position">
+                  <option disabled selected value> -- select an position -- </option>
+                  <option value="DEVELOPMENT">DEVELOPMENT</option>
+                  <option value="QA">QA</option>
+                  <option value="MANAGER">MANAGER</option>
+                  <option value="ARCHITECT">ARCHITECT</option>
+               </select>
+               <label for="position" class="top-placeholder-input text-base"><span
+                       class="top-icon material-symbols-rounded top-text-base">business_center</span> Position</label>
+            </section>
+            <section class="row">
+               <section class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                  <section class="top-input-field">
+                     <input type="email" id="email" class="top-input top-text-base" name="email" required />
+                     <label for="email" class="top-placeholder-input text-base"><span
+                             class="top-icon material-symbols-rounded top-text-base">email</span>Email</label>
+                  </section>
+                  <section class="top-input-field">
+                     <input type="number" id="leaveDays" class="top-input text-base" name="leaveDays" required />
+                     <label for="leaveDays" class="top-placeholder-input text-base"><span
+                             class="top-icon material-symbols-rounded top-text-base">clear_day</span>Leave Days</label>
+                  </section>
+               </section>
+               <section class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                  <section class="top-input-field">
+                     <input type="number" id="phone" class="top-input top-text-base" name="phone" required />
+                     <label for="phone" class="top-placeholder-input top-text-base"><span
+                             class="top-icon material-symbols-rounded top-text-base">phone</span>Phone</label>
+                  </section>
+                  <section class="top-input-field">
+                     <input type="date" id="dateAdmission" class="top-input top-text-base" name="dateOfAdmission"
+                            required />
+                     <label for="dateAdmission" class="top-placeholder-input text-base top-placeholder-input--date">
+                        <span class="top-icon material-symbols-rounded top-text-base">other_admission</span>
+                        Date of Admission
+                     </label>
+                  </section>
+               </section>
+            </section>
+            <section class="top-input-field">
+               <select class="top-input top-text-base" id="supervisor" name="supervisor">
+                  <option disabled selected value> -- select an supervisor -- </option>
+                  <option value="PEPE RIOS">PEPE RIOS</option>
+                  <option value="OSCAR CARLO">OSCAR CARLO</option>
+                  <option value="PEDRO ORTEGA">PEDRO ORTEGA</option>
+               </select>
+               <label for="supervisor" class="top-placeholder-input text-base"><span
+                       class="top-icon material-symbols-rounded top-text-base">supervisor_account</span>Supervisor</label>
+            </section>
+            <section class="row">
+               <button
+                       class="sign-btn btn-secundary col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 clear" id="update-employee-back">Back</button>
+               <button type="submit"
+                       class="sign-btn btn-primary col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">Save</button>
+            </section>
+         </section>
+      </section>
+   </form>
+</section>

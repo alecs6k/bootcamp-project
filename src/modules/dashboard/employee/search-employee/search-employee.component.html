@@ -1,0 +1,76 @@
+<section class="top-breadcrumbs">
+   <section class="top-breadcrumbs-left">
+      <a href="#/top/home" class="top-breadcrumbs-left-item">Home</a>
+      <a href="#/top/search-employee" class="top-breadcrumbs-left-item"
+      >Search employee</a
+      >
+   </section>
+   <label class="top-breadcrumbs-right">MODULE ADMINISTRATION</label>
+</section>
+
+<section class="container top-module-container">
+   <section class="header-card-title">
+      <span class="material-symbols-rounded">search</span>
+      <label> EMPLOYEE LIST</label>
+   </section>
+
+   <section class="top-module-body">
+      <section class="top-search-employee-search">
+         <section class="top-input-field">
+            <input
+                    type="search"
+                    id="search-employee"
+                    class="top-input top-text-base"
+                    name="search-employee"
+                    required
+            />
+            <label class="top-placeholder-input text-base"
+            ><span class="top-icon material-symbols-rounded">search</span
+            >Search</label
+            >
+         </section>
+      </section>
+      <section class="top-table-container">
+         <table class="top-search-employee-table">
+            <thead class="top-search-employee-table-thead">
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Date of admission</th>
+            <th>Operation</th>
+            </thead>
+            <tbody class="top-search-employee-table-tbody">
+            </tbody>
+         </table>
+      </section>
+   </section>
+</section>
+
+<dialog id="modal-confirm-delete" class="top-modal-confirm-delete">
+   <section class="top-modal-confirm-delete-container">
+      <section class="top-modal-confirm-delete-content">
+      <span
+              class="icon material-symbols-rounded top-text-secondary-1 top-text-9xl"
+      >cancel</span
+      >
+         <label class="top-text-3xl top-text-gray-dark-2">Are you sure?</label>
+         <label class="top-text-base top-text-gray-dark-1"
+         >Do you really want to delete this employee? This process cannot be
+            undone.</label
+         >
+      </section>
+      <section class="top-modal-confirm-delete-buttons">
+         <button
+                 type="button"
+                 class="top-modal-confirm-delete-btn top-modal-confirm-delete-btn--cancel top-text-base"
+         >
+            Cancel
+         </button>
+         <button
+                 type="button"
+                 class="top-modal-confirm-delete-btn top-modal-confirm-delete-btn--delete top-text-base"
+         >
+            Delete
+         </button>
+      </section>
+   </section>
+</dialog>

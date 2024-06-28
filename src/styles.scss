@@ -1,0 +1,27 @@
+@import url("./styles/icons/icons.scss");
+@import url("./styles/common/common.scss");
+@import url("./modules/app.component.scss");
+@import url("./modules/dashboard/home/home.component.scss");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: var(--font-poppins);
+}
+
+body {
+	min-width: 100vw;
+	min-height: 100vh;
+	font-size: 1rem;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 60rem;
+	margin: 0 auto;
+	@media (max-width: 992px) {
+		max-width: 100%;
+	}
+}

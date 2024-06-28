@@ -1,0 +1,13 @@
+@import url("./fonts.scss");
+@import url("./root.scss");
+@import url("./input.scss");
+@import url("./text.scss");
+@import url("./modules.scss");
+@import url("./button.scss");
+@import url("./icons.scss");
+
+.test {
+	&:hover {
+		background-color: red;
+	}
+}

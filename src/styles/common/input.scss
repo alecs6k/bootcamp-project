@@ -1,0 +1,57 @@
+.top-input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	outline: none;
+	width: 100%;
+	color: var(--font-gray-dark-2);
+	box-shadow: 0 0.5rem 0.5rem -0.25rem rgba(0, 0, 0, 0.1);
+	border: 0.125rem solid var(--font-gray);
+
+	&:focus {
+		border: 0.125rem solid var(--font-primary-3);
+		box-shadow: 0 0 0.1rem 0.1rem rgba(0, 236, 255, 0.25);
+		background-color: white;
+	}
+}
+
+.top-input-field {
+	position: relative;
+	width: 100%;
+	margin-bottom: 1rem;
+
+	.top-placeholder-input {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		left: 1.25rem;
+		top: 50%;
+		transform: translateY(-50%);
+		color: var(--font-gray-dark-1);
+		transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+	}
+
+	& .top-input:focus + .top-placeholder-input,
+	.top-input:valid + .top-placeholder-input {
+		top: 0;
+		left: 0.75rem;
+		color: var(--font-primary-2);
+		font-size: 0.875rem;
+		line-height: 1.25rem;
+		background-color: white;
+		padding: 0 0.5rem;
+	}
+
+	.top-placeholder-input--date {
+		top: 0;
+		left: 0.75rem;
+		color: var(--font-primary-2);
+		font-size: 0.875rem;
+		line-height: 1.25rem;
+		background-color: white;
+		padding: 0 0.5rem;
+	}
+}

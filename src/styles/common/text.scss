@@ -1,0 +1,114 @@
+.top-text {
+  &-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  &-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  &-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  &-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  &-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  &-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  &-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  &-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  &-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  &-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  &-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  &-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  &-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
+  &-primary-1 {
+    color: var(--font-primary-1) !important;
+  }
+
+  &-primary-2 {
+    color: var(--font-primary-2) !important;
+  }
+
+  &-primary-3 {
+    color: var(--font-primary-3) !important;
+  }
+
+  &-secondary-1 {
+    color: var(--font-secondary-1) !important;
+  }
+
+  &-secondary-2 {
+    color: var(--font-secondary-2) !important;
+  }
+
+  &-gray-dark-2 {
+    color: var(--font-gray-dark-2) !important;
+  }
+
+  &-gray-dark-1 {
+    color: var(--font-gray-dark-1) !important;
+  }
+
+  &-gray {
+    color: var(--font-gray) !important;
+  }
+
+  &-gray-light-1 {
+    color: var(--font-gray-light-1) !important;
+  }
+
+  &-gray-light-2 {
+    color: var(--font-gray-light-2) !important;
+  }
+
+  &-white {
+    color: var(--font-white) !important;
+  }
+
+  &-bold {
+    font-weight: bold !important;
+  }
+}

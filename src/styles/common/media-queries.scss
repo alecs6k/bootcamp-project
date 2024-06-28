@@ -1,0 +1,221 @@
+@media screen and (max-width: 1080px) and (min-width: 768px) {
+	.top-container {
+		grid-area: "top-container";
+		background: url("../../assets/img/side_bg.jpg") no-repeat;
+		background-size: cover;
+		background-position: center;
+		max-height: auto;
+		overflow-x: hidden;
+	}
+
+	.top-sidebar-logo .link-text {
+		display: none;
+	}
+
+	.link .link-text {
+		display: none;
+	}
+
+	.help_card {
+		display: none;
+	}
+
+	.top-main-section {
+		grid-template-columns: auto 1fr;
+	}
+
+	.top-sidebar-links-menu .link {
+		justify-content: center;
+	}
+
+	.items {
+		margin-top: 1rem;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+	}
+
+	.items {
+		margin-top: 1rem;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+	}
+
+	.seller-info {
+		margin-top: 2rem;
+		font-family: var(--font-poppins);
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 0.8rem;
+	}
+
+	.card-info {
+		width: 100%;
+		padding: 1.5rem 2rem;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		z-index: 5;
+		background: rgba(255, 255, 255, 0.329);
+		backdrop-filter: blur(0.5rem);
+	}
+
+	.states-info-card img.card-img {
+		position: absolute;
+		top: 0;
+		right: 0;
+		max-width: 10.5rem;
+		z-index: 1;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.top-main-section {
+		grid-template-columns: 1fr;
+	}
+
+	.top-navbar-btn-menu {
+		display: block;
+		cursor: pointer;
+	}
+
+	.top-sidebar .top-sidebar-close-navbar-btn {
+		display: block;
+		position: absolute;
+		top: 0.25rem;
+		right: 0.25rem;
+		border: none;
+		padding: 0.5rem;
+		background: transparent;
+		cursor: pointer;
+	}
+
+	.top-sidebar {
+		width: minmax(100vw, 34.5rem);
+		position: absolute;
+		top: 0%;
+		left: -140%;
+		transition: all 1s ease;
+		background: #ffffff;
+		z-index: 6;
+	}
+
+	.open_top-sidebar {
+		top: 0%;
+		left: 0%;
+	}
+
+	.top-navbar-leftside-content {
+		display: none;
+	}
+
+	.top-navbar-rightside-content {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.5rem;
+	}
+
+	.searchbar {
+		padding: 0.25rem;
+		z-index: 5;
+	}
+
+	.searchbar .tune_icon {
+		display: none;
+	}
+
+	.top-navbar-rightside-button-set {
+		display: flex;
+		align-items: center;
+	}
+
+	a.top-navbar-profile {
+		width: 2rem;
+		height: 2rem;
+	}
+
+	a.top-navbar-profile img {
+		border-radius: 50%;
+	}
+
+	.main-layout main {
+		grid-column: 1/13;
+	}
+
+	.top-container {
+		background: url("../../assets/img/side_bg.jpg") no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.main-layout aside {
+		grid-column: 1/13;
+		max-height: auto;
+		overflow-x: visible;
+		overflow-y: visible;
+	}
+}
+
+@media screen and (max-width: 618px) {
+	.top-container {
+		background: url("../../assets/img/side_bg.jpg") no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.poster .top-navbar-rightside-button-set {
+		flex-direction: column;
+	}
+
+	.poster .top-navbar-rightside-button-set button {
+		width: 100%;
+	}
+
+	.main-layout aside {
+		max-height: auto;
+		overflow-x: visible;
+		overflow-y: visible;
+	}
+
+	.top-navbar-rightside-content .searchbar {
+		padding: 0.25rem;
+	}
+
+	.items {
+		margin-top: 1rem;
+		display: grid;
+		grid-template-columns: minmax(11.25rem, 23rem);
+		justify-content: center;
+		gap: 2rem;
+	}
+
+	.seller-info {
+		margin-top: 2rem;
+		font-family: var(--font-poppins);
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 1.6rem;
+	}
+
+	.card-info {
+		width: 100%;
+		padding: 1.5rem 2rem;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		z-index: 5;
+		background: rgba(255, 255, 255, 0.329);
+		backdrop-filter: blur(0.5rem);
+	}
+
+	.states-info-card img.card-img {
+		position: absolute;
+		top: 0;
+		right: 0;
+		max-width: 10.5rem;
+		z-index: 1;
+	}
+}
